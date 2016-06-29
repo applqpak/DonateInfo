@@ -1,0 +1,15 @@
+name: DonationInfo
+version: 1.0.0
+author: applqpak
+api:
+- 1.0.0
+- 2.0.0
+main: DonateInfo\Main
+commands:
+  donate:
+    description: Core DonateInfo command.
+    usage: /donate
+    permission: donateinfo.commamd
+permissions:
+  donateinfo.command:
+    default: true
