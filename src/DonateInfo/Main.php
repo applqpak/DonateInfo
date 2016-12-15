@@ -23,7 +23,7 @@
 
     }
 
-    public function onCommand(CommadnSender $sender, Command $cmd, $label, array $args)
+    public function onCommand(CommandSender $sender, Command $cmd, $label, array $args)
     {
 
       switch($cmd->getName())
